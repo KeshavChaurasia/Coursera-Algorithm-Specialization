@@ -34,27 +34,27 @@ long long  MaxPairWiseProductFast(const vector<int>& numbers){
 }
 
 int main(){
-	//while(true){
-	//	int n = rand() % 10 + 2;
-	//	cout << n << "\n";
-	//	vector<int> a;
-	//	for(int i = 0; i < n; i++){
-	//		a.push_back(rand()%100000);
-	//	}
-	//	for(int i = 0; i<n;i++){
-	//		cout << a[i] << ' ' ;
-	//	}
-	//	cout << "\n";
-	//	long long res1 = MaxPairWiseProduct(a);
-	//	long long res2 = MaxPairWiseProductFast(a);
-	//	if(res1 != res2){
-	//		cout << "WRONG ANSWER" << res1 << res2 << "\n" ;
-	//		break;
-	//	}
-	//	else {
-	//		cout << "Ok \n" ;
-	//	}
-	//}
+	// while(true){
+	// 	int n = rand() % 10 + 2;
+	// 	cout << n << "\n";
+	// 	vector<int> a;
+	// 	for(int i = 0; i < n; i++){
+	// 		a.push_back(rand()%100000);
+	// 	}
+	// 	for(int i = 0; i<n;i++){
+	// 		cout << a[i] << ' ' ;
+	// 	}
+	// 	cout << "\n";
+	// 	long long res1 = MaxPairWiseProduct(a);
+	// 	long long res2 = MaxPairWiseProductFast(a);
+	// 	if(res1 != res2){
+	// 		cout << "WRONG ANSWER" << res1 << res2 << "\n" ;
+	// 		break;
+	// 	}
+	// 	else {
+	// 		cout << "Ok \n" ;
+	// 	}
+	// }
 	int n;
 	cin >> n;
 	vector<int> numbers(n);
